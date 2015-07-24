@@ -3,8 +3,7 @@
 
 import os
 
-from bottle import route, request, run
-from bottle import jinja2_template as template
+from bottle import route, request, run, template
 
 import smtplib
 from email.mime.text import MIMEText
