@@ -1,0 +1,17 @@
+<form method="post" action="/">
+	<fieldset>
+		<legend>情報</legend>
+		<label for="value">改行を含むデータ</label>
+		<textarea name="input_with_newline" id="value"></textarea>
+		<input type="submit" name="submit" id="submit" value="送信" />
+	</fieldset>
+</form>
+
+<div>
+	<p>nl2brあり</p>
+	<div>{{ result|nl2br }}</div>
+</div>
+<div>
+	<p>nl2brなし</p>
+	<div>{{ result }}</div>
+</div>
