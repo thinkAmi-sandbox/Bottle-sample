@@ -19,3 +19,5 @@ Bottle (python web framework) : sample codes
   - [Python + Bottle + Jinja2で、Jinja2のカスタムフィルターを使う - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2015/07/31/055509)
 - force404.py
   - [Python2 + Bottleで、404ページを強制的に表示する - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2016/06/18/072918)
+- trailing_slash.py
+  - [Python2 + Bottleで、URL末尾のスラッシュの有無にかかわらず同じコンテンツを表示する - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2016/06/20/065353)
