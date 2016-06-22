@@ -21,3 +21,5 @@ Bottle (python web framework) : sample codes
   - [Python2 + Bottleで、404ページを強制的に表示する - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2016/06/18/072918)
 - trailing_slash.py
   - [Python2 + Bottleで、URL末尾のスラッシュの有無にかかわらず同じコンテンツを表示する - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2016/06/20/065353)
+- lan_access.py
+  - [Python2 + Bottleで、別の端末からアクセスできるようにする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2016/06/23/064752)
