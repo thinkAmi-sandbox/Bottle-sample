@@ -20,10 +20,7 @@ def get_form():
     # https://bottlepy.org/docs/dev/tutorial.html#introducing-formsdict
     # https://bottlepy.org/docs/dev/api.html#bottle.FormsDict
     # handle = request.get_cookie('handle') #=> 「ã」がセットされてしまう
-    handle = request.cookies.getunicode('handle')
-    if handle is None:
-        handle = ''
-
+    handle = request.cookies.getunicode('handle', default='')
     messages = read_messages()
     return jinja2_template('bbs.html', handle=handle, messages=messages)
 
