@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>日本語入力 | bottle app</title>
+    </head>
+    <body>
+        <form action="/" method="POST">
+            <div>
+                <label for="input">入力</label>
+                <input type="text" name="input" size="60">
+            </div>
+            <div>
+                <input type="submit">
+                <a href="/delete_cookie">Cookie削除</a>
+            </div>
+        </form>
+
+        <hr>
+
+        <h5>フォーム値</h5>
+        <div>
+            <p>get: {{form_by_get}}</p>
+            <p>dict key: {{form_by_dict_key}}</p>
+            <p>getunicode: {{form_by_getunicode}}</p>
+            <p>attr: {{form_by_attr}}</p>
+            <p>decode: {{form_by_decode}}</p>
+            <p>getall: {{form_by_getall}}</p>
+            <p>getall_first: {{form_by_getall_first}}</p>
+            <p>decode_getall: {{form_by_decode_getall}}</p>
+            <p>decode_getall_first: {{form_by_decode_getall_first}}</p>
+        </div>
+
+        <h5>Cookie値</h5>
+        <div>
+            <p>get: {{cookie_by_get}}</p>
+            <p>dict key: {{cookie_by_dict_key}}</p>
+            <p>getunicode: {{cookie_by_getunicode}}</p>
+            <p>attr: {{cookie_by_attr}}</p>
+            <p>decode: {{cookie_by_decode}}</p>
+        </div>
+    </body>
+</html>
