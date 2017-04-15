@@ -15,6 +15,9 @@ Bottle (python web framework) : sample codes
 - `e.g._FormsDict_using_multi_byte_string`
   - [Python + Bottleで、フォームやCookieに日本語を設定したら文字化けした - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/04/09/180835)
 
+- `e.g._bbs_app`
+  - [Pythonで、wsgi-interceptを使って、WSGIサーバを起動せずにWSGIアプリのテストをする - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/04/12/054953)
+
 　  
 # Samples, tested by Windows
 ## Tested environment
